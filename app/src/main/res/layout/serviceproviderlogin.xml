@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/serviceproviderloginactivitytextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:width="150dp"
+        android:text="@string/serviceproviderloginactivitytextview" />
+
+    <EditText
+        android:id="@+id/serviceproviderloginactivityemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serviceproviderloginactivitytextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/serviceproviderloginactivityemail"
+        android:textAllCaps="false"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/serviceproviderloginactivitypassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/serviceproviderloginactivityemail"
+        android:layout_alignStart="@+id/serviceproviderloginactivityemail"
+        android:layout_below="@+id/serviceproviderloginactivityemail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/serviceproviderloginactivitypassword"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/serviceproviderloginactivitylogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/serviceproviderloginactivitybutton"
+        android:layout_alignBottom="@+id/serviceproviderloginactivitybutton"
+        android:layout_alignLeft="@+id/serviceproviderloginactivitypassword"
+        android:layout_alignStart="@+id/serviceproviderloginactivitypassword"
+        android:width="100dp"
+        android:text="@string/serviceproviderloginactivityloginbutton" />
+
+    <Button
+        android:id="@+id/serviceproviderloginactivitybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serviceproviderloginactivitypassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/serviceproviderloginactivitylogin"
+        android:layout_toRightOf="@+id/serviceproviderloginactivitylogin"
+        android:width="100dp"
+        android:text="@string/serviceproviderloginactivityregisterbutton" />
+
+</RelativeLayout>

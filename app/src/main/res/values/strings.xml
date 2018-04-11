@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Oppus</string>
+    <string name="button">Button</string>
+    <string name="maincustomerbtnbutton">CUSTOMER</string>
+    <string name="mainserviceproviderbutton">SERVICEPROVIDER</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="customeractivitytextview">Customer Log In</string>
+    <string name="customeractivityemail">email/phone</string>
+    <string name="customeractivitypassword">password</string>
+    <string name="customerloginbutton">Log in</string>
+    <string name="customerregisterbutton">Register</string>
+    <string name="serviceproviderloginactivitytextview">Service Provider Log In</string>
+    <string name="serviceproviderloginactivityemail">email/phone</string>
+    <string name="serviceproviderloginactivitypassword">password</string>
+    <string name="serviceproviderloginactivityloginbutton">Log in</string>
+    <string name="serviceproviderloginactivityregisterbutton">Register</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="servicelisttextview">service</string>
+
+</resources>
